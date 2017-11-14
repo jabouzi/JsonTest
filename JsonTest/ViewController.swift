@@ -31,7 +31,7 @@ class ViewController: UIViewController {
   }
   
   func parseJson() {
-    data = try! NSData(contentsOfFile: file) as! Data
+    data = NSData(contentsOfFile: file)! as Data
     JSON = try! JSONSerialization.jsonObject(with: data, options: [])
   }
 
@@ -81,18 +81,47 @@ class ViewController: UIViewController {
     debugPrint(repoOwners)
   }
   
+  func getData4() {
+    
+    guard let dictionary = JSON as? [String: Any] else {
+      print("Error initializing object")
+      return
+    }
+    
+    guard let root = Root(json: dictionary) else {
+      print("Error initializing object")
+      return
+    }
+    
+    for resource in root.resources! {
+      debugPrint(resource.url)
+    }
+    
+  }
+  
+  
   @IBAction func myButtonClicked(_ sender: Any) {
     readJsonFile(filename: "test1")
     parseJson()
     getData()
-    
+
     readJsonFile(filename: "test2")
     parseJson()
     getData2()
-    
+
     readJsonFile(filename: "test3")
     parseJson()
     getData3()
+    
+    readJsonFile(filename: "single-payload")
+    parseJson()
+    getData4()
+    
+    debugPrint("======================================")
+    
+    readJsonFile(filename: "multi-payload")
+    parseJson()
+    getData4()
   }
 
 }

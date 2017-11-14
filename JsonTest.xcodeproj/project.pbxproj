@@ -18,6 +18,12 @@
 		D7DE33BB1FBB47A6003EEADF /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE33BA1FBB47A6003EEADF /* Repo.swift */; };
 		D7DE33BD1FBB480C003EEADF /* test2.json in Resources */ = {isa = PBXBuildFile; fileRef = D7DE33BC1FBB480C003EEADF /* test2.json */; };
 		D7DE33BF1FBB4BF4003EEADF /* test3.json in Resources */ = {isa = PBXBuildFile; fileRef = D7DE33BE1FBB4BF4003EEADF /* test3.json */; };
+		D7DE33C11FBB6AF1003EEADF /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE33C01FBB6AF1003EEADF /* Payload.swift */; };
+		D7DE33C31FBB6E88003EEADF /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE33C21FBB6E88003EEADF /* Asset.swift */; };
+		D7DE33C61FBB6F6D003EEADF /* single-payload.json in Resources */ = {isa = PBXBuildFile; fileRef = D7DE33C41FBB6F6D003EEADF /* single-payload.json */; };
+		D7DE33C71FBB6F6D003EEADF /* multi-payload.json in Resources */ = {isa = PBXBuildFile; fileRef = D7DE33C51FBB6F6D003EEADF /* multi-payload.json */; };
+		D7DE33C91FBB7BE2003EEADF /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE33C81FBB7BE2003EEADF /* Root.swift */; };
+		D7DE33CB1FBB889E003EEADF /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE33CA1FBB889E003EEADF /* Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,12 @@
 		D7DE33BA1FBB47A6003EEADF /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		D7DE33BC1FBB480C003EEADF /* test2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test2.json; sourceTree = "<group>"; };
 		D7DE33BE1FBB4BF4003EEADF /* test3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test3.json; sourceTree = "<group>"; };
+		D7DE33C01FBB6AF1003EEADF /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		D7DE33C21FBB6E88003EEADF /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		D7DE33C41FBB6F6D003EEADF /* single-payload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "single-payload.json"; sourceTree = "<group>"; };
+		D7DE33C51FBB6F6D003EEADF /* multi-payload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "multi-payload.json"; sourceTree = "<group>"; };
+		D7DE33C81FBB7BE2003EEADF /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		D7DE33CA1FBB889E003EEADF /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		FF4B27DA9FE5835D81C3D890 /* Pods-JsonTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonTest/Pods-JsonTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +95,8 @@
 				D7DE33BE1FBB4BF4003EEADF /* test3.json */,
 				D7DE33BC1FBB480C003EEADF /* test2.json */,
 				D7566D2B1FBB3CA80008F6D4 /* test1.json */,
+				D7DE33C51FBB6F6D003EEADF /* multi-payload.json */,
+				D7DE33C41FBB6F6D003EEADF /* single-payload.json */,
 				D7566D191FBB35EC0008F6D4 /* AppDelegate.swift */,
 				D7566D1B1FBB35EC0008F6D4 /* ViewController.swift */,
 				D7566D2D1FBB3CE80008F6D4 /* RepoOwner.swift */,
@@ -91,6 +105,10 @@
 				D7566D201FBB35EC0008F6D4 /* Assets.xcassets */,
 				D7566D221FBB35EC0008F6D4 /* LaunchScreen.storyboard */,
 				D7566D251FBB35EC0008F6D4 /* Info.plist */,
+				D7DE33C01FBB6AF1003EEADF /* Payload.swift */,
+				D7DE33C21FBB6E88003EEADF /* Asset.swift */,
+				D7DE33C81FBB7BE2003EEADF /* Root.swift */,
+				D7DE33CA1FBB889E003EEADF /* Resource.swift */,
 			);
 			path = JsonTest;
 			sourceTree = "<group>";
@@ -169,7 +187,9 @@
 				D7DE33BF1FBB4BF4003EEADF /* test3.json in Resources */,
 				D7566D211FBB35EC0008F6D4 /* Assets.xcassets in Resources */,
 				D7566D1F1FBB35EC0008F6D4 /* Main.storyboard in Resources */,
+				D7DE33C71FBB6F6D003EEADF /* multi-payload.json in Resources */,
 				D7DE33BD1FBB480C003EEADF /* test2.json in Resources */,
+				D7DE33C61FBB6F6D003EEADF /* single-payload.json in Resources */,
 				D7566D2C1FBB3CA80008F6D4 /* test1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,8 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DE33C31FBB6E88003EEADF /* Asset.swift in Sources */,
+				D7DE33CB1FBB889E003EEADF /* Resource.swift in Sources */,
 				D7566D2E1FBB3CE80008F6D4 /* RepoOwner.swift in Sources */,
+				D7DE33C91FBB7BE2003EEADF /* Root.swift in Sources */,
 				D7566D1C1FBB35EC0008F6D4 /* ViewController.swift in Sources */,
+				D7DE33C11FBB6AF1003EEADF /* Payload.swift in Sources */,
 				D7566D1A1FBB35EC0008F6D4 /* AppDelegate.swift in Sources */,
 				D7DE33BB1FBB47A6003EEADF /* Repo.swift in Sources */,
 			);

@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "url": "http://mirror.cessen.com/blender.org/peach/trailer/trailer_480p.mov",
+      "relative_url": "trailer_480p.mov",
+      "checksum": "0e8cc6241cfc0ccedfb9ae9e7ab5bab8",
+      "size": 11061011
+    },
+    {
+      "url": "http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_h264.mov",
+      "relative_url": "big_buck_bunny_1080p_h264.mov",
+      "checksum": "27e7d0eacda1c0aab836918ac4071bbd",
+      "size": 725106140
+    }
+  ]
+}
