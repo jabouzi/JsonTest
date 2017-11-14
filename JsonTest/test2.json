@@ -1,0 +1,11 @@
+{
+	"id" : 40102424,
+	"name": "Gloss",
+	"description" : "A shiny JSON parsing library in Swift",
+	"html_url" : "https://github.com/hkellaway/Gloss",
+	"owner" : {
+		"id" : 1234567,
+		"login" : "gwbush"
+	},
+	"language" : "Swift"
+}
